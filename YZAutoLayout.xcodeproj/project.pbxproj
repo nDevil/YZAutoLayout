@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57397E2621300179002A07D8 /* AutoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397E2521300179002A07D8 /* AutoScrollViewController.swift */; };
 		57D3AE4721007DB500F85D11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3AE4621007DB500F85D11 /* AppDelegate.swift */; };
 		57D3AE4921007DB500F85D11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3AE4821007DB500F85D11 /* ViewController.swift */; };
 		57D3AE4C21007DB500F85D11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D3AE4A21007DB500F85D11 /* Main.storyboard */; };
 		57D3AE4E21007DB600F85D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D3AE4D21007DB600F85D11 /* Assets.xcassets */; };
 		57D3AE5121007DB600F85D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D3AE4F21007DB600F85D11 /* LaunchScreen.storyboard */; };
 		57FA188E212B06FC002FB83C /* RandomImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA188D212B06FC002FB83C /* RandomImagesViewController.swift */; };
+		57FA18B5212EBCDA002FB83C /* AutoLayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA18B4212EBCDA002FB83C /* AutoLayoutCell.swift */; };
+		57FA18B7212EBD62002FB83C /* AutoLayoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA18B6212EBD62002FB83C /* AutoLayoutTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57397E2521300179002A07D8 /* AutoScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoScrollViewController.swift; sourceTree = "<group>"; };
 		57D3AE4321007DB500F85D11 /* YZAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D3AE4621007DB500F85D11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D3AE4821007DB500F85D11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		57D3AE5021007DB600F85D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57D3AE5221007DB600F85D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FA188D212B06FC002FB83C /* RandomImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImagesViewController.swift; sourceTree = "<group>"; };
+		57FA18B4212EBCDA002FB83C /* AutoLayoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutCell.swift; sourceTree = "<group>"; };
+		57FA18B6212EBD62002FB83C /* AutoLayoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				57D3AE4621007DB500F85D11 /* AppDelegate.swift */,
 				57D3AE4821007DB500F85D11 /* ViewController.swift */,
 				57FA188D212B06FC002FB83C /* RandomImagesViewController.swift */,
+				57FA18B6212EBD62002FB83C /* AutoLayoutTableViewController.swift */,
+				57397E2521300179002A07D8 /* AutoScrollViewController.swift */,
 				57D3AE4A21007DB500F85D11 /* Main.storyboard */,
+				57FA18B4212EBCDA002FB83C /* AutoLayoutCell.swift */,
 				57D3AE4D21007DB600F85D11 /* Assets.xcassets */,
 				57D3AE4F21007DB600F85D11 /* LaunchScreen.storyboard */,
 				57D3AE5221007DB600F85D11 /* Info.plist */,
@@ -140,6 +149,9 @@
 			files = (
 				57FA188E212B06FC002FB83C /* RandomImagesViewController.swift in Sources */,
 				57D3AE4921007DB500F85D11 /* ViewController.swift in Sources */,
+				57397E2621300179002A07D8 /* AutoScrollViewController.swift in Sources */,
+				57FA18B5212EBCDA002FB83C /* AutoLayoutCell.swift in Sources */,
+				57FA18B7212EBD62002FB83C /* AutoLayoutTableViewController.swift in Sources */,
 				57D3AE4721007DB500F85D11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

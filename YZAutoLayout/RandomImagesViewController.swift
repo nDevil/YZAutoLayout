@@ -27,8 +27,10 @@ class RandomImagesViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.firstImageView.tintColorDidChange()
+//        self.firstImageView.tintColorDidChange()
+        self.firstImageView.image = UIImage.init(named: "number_1_white")
 //        self.firstImageWidthConstraint.constant = 100
+        self.thirdImageView.tintColorDidChange()
     }
 
     override func didReceiveMemoryWarning() {
